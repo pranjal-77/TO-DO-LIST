@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">To Do List</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="task-input">
+            <h2>Add a New Task</h2>
+            <input type="text" id="task-name" placeholder="Task Name">
+            <textarea id="task-description" placeholder="Task Description"></textarea>
+            <input type="date" id="task-date">
+            <input type="time" id="task-time">
+            <button id="add-task-btn">Add Task</button>
+        </section>
+
+        <section class="scheduled-tasks">
+            <h2>Scheduled Tasks</h2>
+            <ul id="task-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 To Do List. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
